@@ -20,3 +20,23 @@ rag_answer:
     Question: {question}
 
     Answer with inline citations:
+
+citation_check:
+  version: "1.0.0"
+  system: |
+    You are a citation auditor. Given an answer and the source chunks it was
+    generated from, determine whether the answer is fully supported.
+    
+    Respond with ONLY a JSON object in this exact format, nothing else:
+    {{"supported": true, "unsupported_claims": []}}
+    or
+    {{"supported": false, "unsupported_claims": ["claim 1", "claim 2"]}}
+
+  user: |
+    Source chunks:
+    {context}
+
+    Answer to audit:
+    {answer}
+
+    Is every factual claim in the answer supported by the source chunks?
