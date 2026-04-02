@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-04-02T13:01:54.745131",
+  "faithfulness": 0.73,
+  "answer_relevancy": 0.8288337076370134,
+  "threshold": 0.7,
+  "passed": true,
+  "status": "PASSED",
+  "per_question": [
+    {
+      "question": "What optimizer was used to train the Transformer model?",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.5327258602475037
+    },
+    {
+      "question": "What is the BLEU score of the Transformer big model on WMT 2014 English-to-German translation?",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9978486218982977
+    },
+    {
+      "question": "What is Scaled Dot-Product Attention?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9538909917752165
+    },
+    {
+      "question": "How many attention heads does the base Transformer model use?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question": "What is the dropout rate used in the base Transformer model?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999996615254245
+    },
+    {
+      "question": "How many encoder and decoder layers does the base Transformer have?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8899361271859437
+    },
+    {
+      "question": "What warmup steps were used for the learning rate schedule?",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9262803625954689
+    },
+    {
+      "question": "What is the model dimensionality dmodel of the base Transformer?",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9953784686597964
+    },
+    {
+      "question": "What BLEU score did the Transformer achieve on WMT 2014 English-to-French translation?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9922769824824816
+    },
+    {
+      "question": "What three types of attention does the Transformer use?",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0
+    }
+  ]
+}

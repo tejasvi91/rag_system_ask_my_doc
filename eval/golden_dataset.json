@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What optimizer was used to train the Transformer model?",
+    "ground_truth": "The Adam optimizer was used with β1=0.9, β2=0.98 and ε=10−9."
+  },
+  {
+    "question": "What is the BLEU score of the Transformer big model on WMT 2014 English-to-German translation?",
+    "ground_truth": "The Transformer big model achieved a BLEU score of 28.4 on WMT 2014 English-to-German translation."
+  },
+  {
+    "question": "What is Scaled Dot-Product Attention?",
+    "ground_truth": "Scaled Dot-Product Attention computes dot products of a query with all keys, divides by the square root of the key dimension dk, and applies softmax to get weights on the values."
+  },
+  {
+    "question": "How many attention heads does the base Transformer model use?",
+    "ground_truth": "The base Transformer model uses 8 attention heads."
+  },
+  {
+    "question": "What is the dropout rate used in the base Transformer model?",
+    "ground_truth": "The base Transformer model uses a dropout rate of 0.1."
+  },
+  {
+    "question": "How many encoder and decoder layers does the base Transformer have?",
+    "ground_truth": "The base Transformer model has 6 encoder layers and 6 decoder layers."
+  },
+  {
+    "question": "What warmup steps were used for the learning rate schedule?",
+    "ground_truth": "4000 warmup steps were used for the learning rate schedule."
+  },
+  {
+    "question": "What is the model dimensionality dmodel of the base Transformer?",
+    "ground_truth": "The base Transformer model has a model dimensionality dmodel of 512."
+  },
+  {
+    "question": "What BLEU score did the Transformer achieve on WMT 2014 English-to-French translation?",
+    "ground_truth": "The Transformer big model achieved a BLEU score of 41.0 on WMT 2014 English-to-French translation."
+  },
+  {
+    "question": "What three types of attention does the Transformer use?",
+    "ground_truth": "The Transformer uses encoder-decoder attention, encoder self-attention, and decoder self-attention."
+  }
+]
