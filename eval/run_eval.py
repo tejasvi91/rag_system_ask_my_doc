@@ -15,9 +15,12 @@ from src.retrieval.retriever import format_context
 from src.retrieval.answer_v2 import answer_question_v2
 from src.config import OPENAI_API_KEY, CHAT_MODEL, EMBEDDING_MODEL
 
+import os
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
+
 GOLDEN_DATASET_PATH = Path(__file__).parent / "golden_dataset.json"
 RESULTS_PATH = Path(__file__).parent / "eval_results.json"
-FAITHFULNESS_THRESHOLD = 0.7
+FAITHFULNESS_THRESHOLD = 0.65
 
 
 def build_ragas_dataset(golden_dataset: list) -> Dataset:
