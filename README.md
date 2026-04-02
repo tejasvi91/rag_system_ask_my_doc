@@ -21,14 +21,8 @@ regressions.
 ---
 
 ## Architecture
-```
-Document → Chunker → Embeddings → ChromaDB
-                                      ↓
-User question → BM25 + Vector search → RRF fusion → Cross-encoder reranker
-                                                            ↓
-                                              LLM answer generation
-                                                            ↓
-                                              Citation audit → Final answer
+
+![Architecture diagram](docs/architecture.svg)
 ```
 
 ---
