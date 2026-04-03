@@ -28,7 +28,7 @@ regressions.
 ---
 
 ## Tech Stack
-
+```
 | Component | Tool |
 |---|---|
 | Orchestration | LangChain |
@@ -41,11 +41,11 @@ regressions.
 | CI pipeline | GitHub Actions |
 | Prompt config | YAML versioned |
 | Language | Python 3.11 |
-
+```
 ---
 
 ## Project Structure
-```
+```bash
 rag-system/
 ├── .github/
 │   └── workflows/
